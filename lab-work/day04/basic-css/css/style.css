@@ -1,0 +1,46 @@
+/*   ID SELECTORS   */
+
+
+/*   CLASS SELECTORS   */
+
+
+/*   TAG SELECTORS   */
+  h1 {
+    color: #0000FF;
+    text-decoration: underline;
+    background: gold;
+  }
+
+  h2 {
+    color: purple;
+    font-weight: bold;
+    border: solid 5px orange;
+    font-size: 25px;
+  }
+
+  section {
+    width: 50%;
+    height: 200px;
+    background: gray;
+  }
+
+/*   DIRECT-CHILD DEMONSTRATION   */
+  section > p {
+    color: white;
+  }
+
+/*   DIRECT SIBLING   */
+  p + p {
+    color: red;
+  }
+
+  footer {
+    background: black;
+    border: solid 3px lightgreen;
+  }
+
+  footer > h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
