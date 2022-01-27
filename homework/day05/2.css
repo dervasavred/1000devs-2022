@@ -1,0 +1,28 @@
+header, footer {
+  width: 100%;
+  height: 100px;
+  border: solid 4px grey;
+  clear: both;
+}
+
+.long {
+  width: 100%;
+  height: 150px;
+  border: solid 4px grey;
+}
+
+.fortyPercent, .sixtyPercent{
+  height: 250px;
+  box-sizing: border-box;
+  border: solid 2px grey;
+  float: left;
+}
+
+
+.fortyPercent {
+  width: 40%;
+}
+
+.sixtyPercent {
+  width: 60%;
+}
